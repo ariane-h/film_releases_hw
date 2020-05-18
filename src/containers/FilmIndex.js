@@ -37,8 +37,7 @@ class FilmIndex extends Component {
     render(){
         return(
             <>
-            <h2>film Index</h2>
-            <FilmList></FilmList>
+            <FilmList films={this.state.films}></FilmList>
             </>
         )
     }
